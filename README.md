@@ -28,9 +28,9 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
 
   * Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per sub-category.
 
-<img src="images/state_bar_chart.png">
-
   * Create a stacked column pivot chart that can be filtered by country and parent-category based on the table you have created.
+  
+  <img src="images/state_bar_chart.png">
 
 * The dates stored within the deadline and launched_at columns use Unix timestamps. Fortunately for us, there is a formula that can be used to convert these timestamps to a normal date.
 
