@@ -28,6 +28,8 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
 
   * Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per sub-category.
 
+<img src="images/state_bar_chart.png">
+
   * Create a stacked column pivot chart that can be filtered by country and parent-category based on the table you have created.
 
 * The dates stored within the deadline and launched_at columns use Unix timestamps. Fortunately for us, there is a formula that can be used to convert these timestamps to a normal date.
@@ -37,6 +39,8 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
   * Create a new column named Date Ended Conversion that will use this formula to convert the data contained within deadline into Excel's date format.
 
   * Create a new sheet with a pivot table with a column of state, rows of Date Created Conversion, values based on the count of state, and filters based on parent category and Years.
+  
+  <img src="images/state_line_chart.png">
 
   * Now create a pivot chart line graph that visualizes this new table.
 
@@ -71,6 +75,8 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
 * Add up each of the values in the Number Successful, Number Failed, and Number Canceled columns to populate the Total Projects column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or canceled per goal range.
 
 * Create a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
+
+<img src="images/outcomes_based_on_goal.png">
 
 
 ## Statistical Analysis
